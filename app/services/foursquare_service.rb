@@ -18,4 +18,7 @@ def friends(token)
   end
   JSON.parse(resp.body)["response"]["friends"]["items"]
 end
+
+  def tips
+  end
 end
